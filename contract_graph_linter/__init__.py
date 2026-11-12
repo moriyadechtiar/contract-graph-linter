@@ -18,7 +18,7 @@ from .slicing import context_slice, dependencies, dependents
 from .scores import reference_free_scores
 from .report import LintReport, lint
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 
 __all__ = [
     "EDGE_RULES", "NODE_TYPES", "ContractGraph", "Edge", "GraphReadError", "Node", "load_graph",

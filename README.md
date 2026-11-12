@@ -2,7 +2,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-IEEE%20ICDMW%202025-blue)](https://doi.org/10.1109/ICDMW69685.2025.00092)
 [![Research code](https://img.shields.io/badge/Research%20code-graph--grpo--lex-lightgrey)](https://github.com/moriyadechtiar/graph-grpo-lex)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/moriyadechtiar/contract-graph-linter/blob/main/LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/moriyadechtiar/contract-graph-linter/blob/main/LICENSE)
 
 Checks, graph metrics and context slicing for contract graphs.
 
@@ -223,7 +223,7 @@ python evaluation/evaluate_linter.py          # the evaluation; downloads the pu
 
 ## License
 
-MIT. See [`LICENSE`](https://github.com/moriyadechtiar/contract-graph-linter/blob/main/LICENSE).
+Apache License 2.0. See [`LICENSE`](https://github.com/moriyadechtiar/contract-graph-linter/blob/main/LICENSE) and [`NOTICE`](https://github.com/moriyadechtiar/contract-graph-linter/blob/main/NOTICE). Copies and derived works must keep the attribution in `NOTICE`.
 
 ## Contact
 

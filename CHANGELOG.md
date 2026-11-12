@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.2
+## 0.1.3
 
 First release. The linter was introduced in the GRAPH-GRPO-LEX paper and developed in the [graph-grpo-lex](https://github.com/moriyadechtiar/graph-grpo-lex) research repository.
 

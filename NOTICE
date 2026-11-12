@@ -1,0 +1,12 @@
+contract-graph-linter
+Copyright 2025-2026 Moriya Dechtiar
+
+This library implements the contract linter introduced in:
+
+  M. Dechtiar, D. M. Katz, M. Sundaresan, S. Jaume, H. Wang,
+  "GRAPH-GRPO-LEX: Contract Graph Modeling and Reinforcement Learning with
+  Group Relative Policy Optimization," 2025 IEEE International Conference on
+  Data Mining Workshops (ICDMW), pp. 767-776.
+  https://doi.org/10.1109/ICDMW69685.2025.00092
+
+Source: https://github.com/moriyadechtiar/contract-graph-linter

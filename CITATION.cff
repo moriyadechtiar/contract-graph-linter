@@ -5,7 +5,7 @@ authors:
   - family-names: Dechtiar
     given-names: Moriya
 repository-code: "https://github.com/moriyadechtiar/contract-graph-linter"
-license: MIT
+license: Apache-2.0
 preferred-citation:
   type: conference-paper
   title: "GRAPH-GRPO-LEX: Contract Graph Modeling and Reinforcement Learning with Group Relative Policy Optimization"
