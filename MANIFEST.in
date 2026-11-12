@@ -1,0 +1,4 @@
+include CHANGELOG.md CITATION.cff
+recursive-include evaluation *.py *.md
+recursive-include examples *.py
+recursive-include tests *.py

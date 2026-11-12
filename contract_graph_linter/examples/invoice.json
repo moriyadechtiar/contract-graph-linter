@@ -1,0 +1,18 @@
+{
+  "contract_id": "EXAMPLE-SUPPLY (constructed illustration)",
+  "nodes": [
+    {"id": "8",   "node_type": "CLAUSE", "title": "Payment", "level": 1},
+    {"id": "8.2", "node_type": "CLAUSE", "title": "8.2", "level": 2},
+    {"id": "party:Supplier", "node_type": "PARTY", "name": "Supplier"},
+    {"id": "party:Customer", "node_type": "PARTY", "name": "Customer"},
+    {"id": "party:Guarantor", "node_type": "PARTY", "name": "Guarantor"},
+    {"id": "value:30 days", "node_type": "VALUE", "text": "30", "unit": "days"}
+  ],
+  "edges": [
+    {"src": "8.2", "tgt": "8", "type": "IS_PART_OF"},
+    {"src": "8.2", "tgt": "party:Supplier", "type": "MENTIONS_PARTY"},
+    {"src": "8.2", "tgt": "party:Customer", "type": "MENTIONS_PARTY"},
+    {"src": "8.2", "tgt": "party:Guarantor", "type": "MENTIONS_PARTY"},
+    {"src": "8.2", "tgt": "value:30 days", "type": "CONTAINS"}
+  ]
+}

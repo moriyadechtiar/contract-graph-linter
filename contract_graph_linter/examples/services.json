@@ -1,0 +1,40 @@
+{
+  "contract_id": "EXAMPLE-SERVICES (constructed illustration)",
+  "nodes": [
+    {"id": "1",   "node_type": "CLAUSE", "title": "Definitions", "level": 1},
+    {"id": "1.1", "node_type": "CLAUSE", "title": "1.1", "level": 2},
+    {"id": "1.2", "node_type": "CLAUSE", "title": "1.2", "level": 2},
+    {"id": "1.3", "node_type": "CLAUSE", "title": "1.3", "level": 2},
+    {"id": "2",   "node_type": "CLAUSE", "title": "Services", "level": 1},
+    {"id": "2.1", "node_type": "CLAUSE", "title": "2.1", "level": 2},
+    {"id": "2.2", "node_type": "CLAUSE", "title": "2.2", "level": 2},
+    {"id": "3.4", "node_type": "CLAUSE", "title": "3.4", "level": 2},
+    {"id": "9",   "node_type": "CLAUSE", "title": "Miscellaneous", "level": 1},
+    {"id": "term:Affiliate", "node_type": "DEFINED_TERM", "name": "Affiliate"},
+    {"id": "term:Control", "node_type": "DEFINED_TERM", "name": "Control"},
+    {"id": "term:Fees", "node_type": "DEFINED_TERM", "name": "Fees"},
+    {"id": "term:Services", "node_type": "DEFINED_TERM", "name": "Services"},
+    {"id": "party:Supplier", "node_type": "PARTY", "name": "Supplier"},
+    {"id": "party:Customer", "node_type": "PARTY", "name": "Customer"}
+  ],
+  "edges": [
+    {"src": "1.1", "tgt": "1", "type": "IS_PART_OF"},
+    {"src": "1.2", "tgt": "1", "type": "IS_PART_OF"},
+    {"src": "1.3", "tgt": "1", "type": "IS_PART_OF"},
+    {"src": "2.1", "tgt": "2", "type": "IS_PART_OF"},
+    {"src": "2.2", "tgt": "2", "type": "IS_PART_OF"},
+    {"src": "1.1", "tgt": "term:Affiliate", "type": "DEFINES"},
+    {"src": "1.1", "tgt": "term:Control", "type": "USES"},
+    {"src": "1.2", "tgt": "term:Control", "type": "DEFINES"},
+    {"src": "1.2", "tgt": "term:Affiliate", "type": "USES"},
+    {"src": "1.3", "tgt": "term:Fees", "type": "DEFINES"},
+    {"src": "2.1", "tgt": "term:Services", "type": "USES"},
+    {"src": "2.1", "tgt": "party:Supplier", "type": "MENTIONS_PARTY"},
+    {"src": "2.1", "tgt": "party:Customer", "type": "MENTIONS_PARTY"},
+    {"src": "2.1", "tgt": "2.2", "type": "REFERENCES"},
+    {"src": "2.2", "tgt": "2.1", "type": "REFERENCES"},
+    {"src": "2.2", "tgt": "7.5", "type": "REFERENCES"},
+    {"src": "3.4", "tgt": "2.1", "type": "REFERENCES"},
+    {"src": "2.2", "tgt": "term:Affiliate", "type": "USES"}
+  ]
+}

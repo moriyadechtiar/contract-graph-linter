@@ -1,0 +1,18 @@
+{
+  "contract_id": "EXAMPLE-LOAN (constructed illustration)",
+  "nodes": [
+    {"id": "5",   "node_type": "CLAUSE", "title": "Repayment", "level": 1},
+    {"id": "5.1", "node_type": "CLAUSE", "title": "5.1", "level": 2},
+    {"id": "party:Borrower", "node_type": "PARTY", "name": "Borrower"},
+    {"id": "term:Loan", "node_type": "DEFINED_TERM", "name": "Loan"},
+    {"id": "schedule:2", "node_type": "SCHEDULE", "title": "Schedule 2"},
+    {"id": "obligation:repay", "node_type": "OBLIGATION", "text": "repay the Loan"}
+  ],
+  "edges": [
+    {"src": "5.1", "tgt": "5", "type": "IS_PART_OF"},
+    {"src": "5.1", "tgt": "party:Borrower", "type": "MENTIONS_PARTY"},
+    {"src": "5.1", "tgt": "term:Loan", "type": "USES"},
+    {"src": "5.1", "tgt": "schedule:2", "type": "REFERENCES"},
+    {"src": "5.1", "tgt": "obligation:repay", "type": "IMPOSES"}
+  ]
+}

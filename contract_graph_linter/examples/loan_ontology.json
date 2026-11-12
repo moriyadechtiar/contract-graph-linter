@@ -1,0 +1,10 @@
+{
+  "node_types": {
+    "OBLIGATION": {"name": "text", "id_prefix": "obligation"},
+    "SCHEDULE": {"name": "title", "id_prefix": "schedule"}
+  },
+  "edge_types": {
+    "IMPOSES": [["CLAUSE", "OBLIGATION"]],
+    "REFERENCES": [["CLAUSE", "SCHEDULE"]]
+  }
+}
